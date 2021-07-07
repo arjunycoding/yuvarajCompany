@@ -3,7 +3,7 @@ let submit = $("#submit");
 let warrning = $("#alert");
 let loginInfo = {
     "arjun":"123",
-    "yuva":"456"
+    "adhithya":"456"
 };
 // HIDE AND SHOW
 warrning.hide()
@@ -13,7 +13,7 @@ function validateForm(){
         let uname = $("#username").val();
         let pwd = $("#password").val();
         if(uname == key && pwd == value){
-            window.location.replace("mainPage.html");
+            window.location.replace("mainpage.html");
             break;
         } else {
             warrning.show()
