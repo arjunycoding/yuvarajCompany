@@ -1,0 +1,17 @@
+.topbar{
+    background-color:deepskyblue;
+    height:55px;
+    width:100%;
+}
+body{
+    margin: 0 auto;
+}
+.title{
+    font-size:30px;
+    color:white;
+    position: absolute;
+    top: 10px;
+}
+.topB{
+    position:absolute;
+}
