@@ -1,9 +1,6 @@
 body{
     margin: 0 auto;
-<<<<<<< HEAD
     padding:10px;
-    background-image:url(../images/backgound.jpg);
-=======
     padding:10px
 }
 .topB{
@@ -15,7 +12,6 @@ body{
     border:none;
     height:30px;
     transition: background-color 1s; 
->>>>>>> 7a2e8423ea1db9cbdf4c12e7763db928a4796d21
 }
 .topB:hover{
     font-size:15px;
@@ -29,17 +25,15 @@ body{
 }
 .topB{
     font-size:15px;
+    height:40px;
+    transition: background-color 1.5s; 
+}
+.topB:hover{
+    background-color:#336cc9;
+    height:40px;
+    margin:10px;
     border:none;
-    width:130px;
-    height:60px;
-    top:0px;
-    left:0px;
-    background-color:inherit;
     color:white;
-    padding:0px 10px 0px 10px;
-    text-transform: uppercase;
-    word-spacing:0.3em;
-    letter-spacing:0.02em;
     text-align:center;
     transition-property: background-color;
     transition-duration: 750ms;
