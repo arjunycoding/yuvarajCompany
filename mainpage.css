@@ -13,7 +13,6 @@ body{
 .topB{
     font-size:20px;
     color:white;
-    border:6px inset rgb(4, 177, 235);
     background-color:inherit;
     margin:10px;
     background-color: inherit;
@@ -40,7 +39,7 @@ body{
 .topB:hover{
     font-size:20px;
     color:white;
-    border:6px outset rgb(4, 177, 235);
     background-color:inherit;
     margin:10px;
+    border:none;
 }
