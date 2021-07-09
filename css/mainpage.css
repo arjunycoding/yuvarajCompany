@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     padding:10px;
-    padding:10px
+    background-image:url(../images/backgound.jpg);
 }
 .topB{
     background-color:deepskyblue;
@@ -30,10 +30,20 @@ body{
 }
 .topB:hover{
     background-color:#336cc9;
+    color:white;
     height:40px;
     margin:10px;
     border:none;
+    width:130px;
+    height:60px;
+    top:0px;
+    left:0px;
+    background-color:inherit;
     color:white;
+    padding:0px 10px 0px 10px;
+    text-transform: uppercase;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
     text-align:center;
     transition-property: background-color;
     transition-duration: 750ms;
