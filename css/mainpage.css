@@ -11,17 +11,21 @@ body{
     padding:10px
 }
 .topB{
+    background-color:deepskyblue;
     font-size:20px;
+    width:100px;
     color:white;
-    background-color:inherit;
     margin:10px;
-    background-color: inherit;
     border:none;
+    height:30px;
+    transition: background-color 1s; 
+    transition: font-size 1s;  
 }
 .topB:hover{
-    font-size:20px;
+    background-color:rgb(4, 168, 223);
+    font-size:22px;
     color:white;
-    background-color:inherit;
+    height:30px;
     margin:10px;
     border:none;
 }
