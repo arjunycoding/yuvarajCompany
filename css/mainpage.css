@@ -17,13 +17,13 @@ body{
     color:white;
     margin:10px;
     border:none;
-    height:30px;
-    transition: background-color 1s; 
+    height:40px;
+    transition: background-color 1.5s; 
 }
 .topB:hover{
-    background-color:rgb(4, 168, 223);
+    background-color:#336cc9;
     color:white;
-    height:30px;
+    height:40px;
     margin:10px;
     border:none;
 }
