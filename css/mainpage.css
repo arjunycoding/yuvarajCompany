@@ -1,7 +1,21 @@
 body{
     margin: 0 auto;
+<<<<<<< HEAD
     padding:10px;
     background-image:url(../images/backgound.jpg);
+=======
+    padding:10px
+}
+.topB{
+    background-color:deepskyblue;
+    font-size:25px;
+    width:100px;
+    color:white;
+    margin:10px;
+    border:none;
+    height:30px;
+    transition: background-color 1s; 
+>>>>>>> 7a2e8423ea1db9cbdf4c12e7763db928a4796d21
 }
 .topB:hover{
     font-size:15px;
