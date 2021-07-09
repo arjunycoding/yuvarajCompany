@@ -2,11 +2,33 @@
     background-color:deepskyblue;
     height:55px;
     width:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
 }
 body{
     margin: 0 auto;
+    padding:10px
 }
 .topB{
     background-color: inherit;
     border:none;
+}
+.card{
+    /* border:1px solid black;
+    border-radius: 20px;
+    width:200px;
+    height:250px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 15px;
+    padding:10px;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 20%;
+    padding:15px; 
 }
