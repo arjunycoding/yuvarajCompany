@@ -29,3 +29,16 @@ body{
     margin:10px;
     border:none;
 }
+#search{
+    border:none;
+    border-radius: 5px;
+    padding:5px;
+    width:50px;
+    transition: width 1s;
+}
+
+#search:focus{
+    border-radius: 5px;
+    padding:5px;
+    width:150px;
+}
