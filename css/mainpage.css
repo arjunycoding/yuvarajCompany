@@ -17,13 +17,11 @@ body{
     color:white;
     margin:10px;
     border:none;
-    height:30px;
+    height:20px;
     transition: background-color 1s; 
-    transition: font-size 1s;  
 }
 .topB:hover{
     background-color:rgb(4, 168, 223);
-    font-size:22px;
     color:white;
     height:30px;
     margin:10px;
