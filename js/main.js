@@ -4,19 +4,23 @@
 // VARIBELS
 let submit = $("#submit");
 let warrning = $("#alert");
+let mainpage = $("#mainPage")
+let loginPage = $("#loginPage")
 let loginInfo = {
     "arjun":"123",
     "adhithya":"456"
 };
 // HIDE AND SHOW
 warrning.hide()
+mainpage.hide()
 // FUNCTIONS
 function validateForm(){
     for (const [key, value] of Object.entries(loginInfo)) {
         let uname = $("#username").val();
         let pwd = $("#password").val();
         if(uname == key && pwd == value){
-            window.location.replace("mainpage.html");
+            mainpage.show()
+            loginPage.hide()
             break;
         } else {
             warrning.show()
@@ -25,3 +29,7 @@ function validateForm(){
 }
 // EVENT LISTENERS
 submit.on("click", validateForm)
+
+/************
+    SPA
+*************/
