@@ -117,3 +117,10 @@ body{
     padding:5px;
     width:150px;
 }
+#card{
+    width:200px;
+    text-align:center;
+    height:300px;
+    border:solid black 0.5px;
+    box-shadow: 4px 4px 10px #5c5c5c;
+}
