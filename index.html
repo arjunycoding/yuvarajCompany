@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mainpage.css">
     <title>Yuvaraj Company</title>
-    <link rel="icon" href = "images/logo.png">
-    
 </head>
 <body>
-    <!-- PAGE -->
-    <div id="page">
+    <!-- LOGIN PAGE -->
+    <div id="loginPage" id="login">
         <!-- HEADINS -->
         <h2 class="heading">YUVARAJ COMPANY</h2>
         <h3 class="subheading">LOGIN</h3>
@@ -22,13 +22,26 @@
             <div id="alert">Incorrect Username Or Password</div>
             <label for="username">Username:</label>
             <input type="text" id = "username" name = "username">
-            <br/>
             <label for="password">Password:</label>
             <input type="password" id = "password" name = "password">
             <br/>
             <br/>
             <button id="submit" class = "button">SUBMIT</button>
         </div>
+    </div>
+
+    <!-- MAIN PAGE -->
+    <!-- TOP BAR -->
+    <div id="mainPage">
+        <header class="topbar">
+            <button class="topB">Home</button>
+            <button class="topB">About</button>
+            <button class="topB">Buy</button>
+            <input type="text" id="search" name="search" placeholder="Search ...">
+        </header>
+        <br/>
+        <br/> <br/>
+        <div>I feel very happys</div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
